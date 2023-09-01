@@ -34,6 +34,7 @@ function divide(number, anotherNumber) {
 // Operator function
 function operate(operatorSymbol) {
   if (operatorSymbol == "+") return add(firstNumber, secondNumber);
+  if (operatorSymbol == "-") return subtract(firstNumber, secondNumber);
 }
 
 console.log(operate(operator));
