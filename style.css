@@ -1,14 +1,21 @@
+
 .calcContainer{
+    margin: auto;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
-    min-width: 40%;
+    background-color: rgba(28,28,28);
+    max-width: 60%;
+    min-width: fit-content;
     min-height:40%;
+}
+.calcContainer h1{
+    color: rgb(160, 160, 160);
 }
 
 .inputScreen{
-    background-color: lightblue;
+    color: rgb(212,212,212);
     min-width: 30%;
     display: flex;
     justify-content: right;
@@ -21,14 +28,23 @@
 }
 
 .numberButton{
-    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80,80,80);
+    color: rgb(212, 212, 212);
     border-radius: 10px;
     padding: 10px;
     width: calc(100% / 4);
     margin: 5px ;
-    text-align: center;
 }
 .bottomRow {
-
     width: calc(100%/1.5);
+}
+
+.operatorButton{
+    background-color: rgb(255, 149, 0) ;
+    font-size: 1.5em;
+    font-style: bold;
 }
