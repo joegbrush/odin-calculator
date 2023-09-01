@@ -17,4 +17,12 @@ function subtract(number, anotherNumber) {
   return number - anotherNumber;
 }
 
-console.log(subtract(1, 2));
+// Multiply function
+function multiply(number, anotherNumber) {
+  return number * anotherNumber;
+}
+// Divide function
+function divide(number, anotherNumber) {
+  return number / anotherNumber;
+}
+console.log(divide(2, 2));
