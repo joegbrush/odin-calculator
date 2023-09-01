@@ -14,20 +14,26 @@ let secondNumber = prompt("Input second number");
 
 // Add function
 function add(number, anotherNumber) {
-  return number + anotherNumber;
+  return Number(number) + Number(anotherNumber);
 }
 
 // Subtract function
 function subtract(number, anotherNumber) {
-  return number - anotherNumber;
+  return Number(number) - Number(anotherNumber);
 }
 
 // Multiply function
 function multiply(number, anotherNumber) {
-  return number * anotherNumber;
+  return Number(number) * Number(anotherNumber);
 }
 // Divide function
 function divide(number, anotherNumber) {
-  return number / anotherNumber;
+  return Number(number) / Number(anotherNumber);
 }
-console.log(divide(firstNumber, secondNumber));
+
+// Operator function
+function operate(operatorSymbol) {
+  if (operatorSymbol == "+") return add(firstNumber, secondNumber);
+}
+
+console.log(operate(operator));
