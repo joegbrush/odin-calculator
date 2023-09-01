@@ -1,14 +1,15 @@
 # odin-calculator
-TOP calculator project. Readme information sorced from: 
+
+TOP calculator project. Readme information sourced from:
 https://www.theodinproject.com/lessons/foundations-calculator
 
-1 Your calculator is going to contain functions for all of the basic math operators you typically find on simple      calculators, so start by creating functions for the following items and testing them in your browser’s console.
-  add
-  subtract
-  multiply
-  divide
+1 Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators, so start by creating functions for the following items and testing them in your browser’s console.
+add
+subtract
+multiply
+divide
 
-2 A calculator operation will consist of a number, an operator, and another number. For example, 3 + 5. Create        three variables for each of the parts of a calculator operation. Create a variable for the first number, the        operator, and the second number. You’ll use these variables to update your display later.
+2 A calculator operation will consist of a number, an operator, and another number. For example, 3 + 5. Create three variables for each of the parts of a calculator operation. Create a variable for the first number, the operator, and the second number. You’ll use these variables to update your display later.
 
 3 Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
 
@@ -24,7 +25,7 @@ You should already have the code that can populate the display, so once operate(
 This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don’t feel bad if it takes you a while to figure out the logic.
 
 7 Gotchas: watch out for and fix these bugs if they show up in your code:
-Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 * 3 = should yield 42. An example of the behavior we’re looking for would be this student solution.
+Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 \* 3 = should yield 42. An example of the behavior we’re looking for would be this student solution.
 Your calculator should not evaluate more than a single pair of numbers at a time. Example: you press a number button (12), followed by an operator button (+), a second number button (7), and finally a second operator button (-). Your calculator should then do the following: first, evaluate the first pair of numbers (12 + 7), second, display the result of that calculation (19), and finally, use that result (19) as the first number in your new calculation, along with the next operator (-).
 You should round answers with long decimals so that they don’t overflow the screen.
 Pressing = before entering all of the numbers or an operator could cause problems!
