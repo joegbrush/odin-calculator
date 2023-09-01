@@ -7,6 +7,11 @@
 // Create a basic html calculator with buttons for each number, each operator function and a 'equals' key
 // Create the functions that populate the display when you click the number buttons. You should be storing the ‘display value’ in a variable somewhere for use in the next step
 
+// Operator parts
+let firstNumber = prompt("Input first number");
+let operator = prompt("Input operator: +, -, *, or /.");
+let secondNumber = prompt("Input second number");
+
 // Add function
 function add(number, anotherNumber) {
   return number + anotherNumber;
@@ -25,4 +30,4 @@ function multiply(number, anotherNumber) {
 function divide(number, anotherNumber) {
   return number / anotherNumber;
 }
-console.log(divide(2, 2));
+console.log(divide(firstNumber, secondNumber));
