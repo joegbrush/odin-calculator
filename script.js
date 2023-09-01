@@ -12,4 +12,9 @@ function add(number, anotherNumber) {
   return number + anotherNumber;
 }
 
-console.log(add(1, 2));
+// Subtract function
+function subtract(number, anotherNumber) {
+  return number - anotherNumber;
+}
+
+console.log(subtract(1, 2));
