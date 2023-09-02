@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
+.calcContainer{
+    /* width: 50%; */
+    margin: auto;
+}
 .calculator{
+    margin: auto;
     max-width: 320px;
     background: #eee;
 }
