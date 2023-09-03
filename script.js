@@ -1,5 +1,5 @@
 let currentTotal = 0;
-let butter = "0";
+let buffer = "0";
 
 let previousOperator = null;
 
@@ -36,7 +36,7 @@ function handleSymbol(value) {
       previousOperator = null;
       currentTotal = 0;
       break;
-    case "&larr;":
+    case "←":
       if (buffer.length === 1) {
         buffer = "0";
       } else {
